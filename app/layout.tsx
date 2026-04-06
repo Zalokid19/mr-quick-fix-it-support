@@ -5,14 +5,29 @@ import WhatsAppButton from "../components/WhatsAppButton";
 import MobileStickyCTA from "../components/MobileStickyCTA";
 import LocalBusinessSchema from "../components/LocalBusinessSchema";
 
-export const metadata: Metadata = {
+export const metadata = {
   metadataBase: new URL("https://mr-quick-fix-it-support.vercel.app"),
+
   title: {
     default: "Mr Quick Fix IT Support | Remote IT Support Cape Town",
     template: "%s | Mr Quick Fix IT Support",
   },
+
   description:
-    "Fast and affordable remote IT support in Cape Town. We fix laptops, remove viruses, solve WiFi issues, and provide remote computer support for homes and small businesses.",
+    "Fast and affordable IT support in Cape Town. We fix laptops, remove viruses, and solve WiFi issues.",
+
+  applicationName: "Mr Quick Fix IT Support",
+
+  authors: [{ name: "Mr Quick Fix IT Support" }],
+
+  creator: "Mr Quick Fix IT Support",
+
+  publisher: "Mr Quick Fix IT Support",
+
+  icons: {
+    icon: "/favicon.ico",
+  },
+  
   keywords: [
     "Mr Quick Fix IT Support",
     "IT support Cape Town",
