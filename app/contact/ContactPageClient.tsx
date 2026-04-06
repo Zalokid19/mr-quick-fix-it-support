@@ -320,14 +320,10 @@ export default function ContactPageClient() {
         Pay securely online using PayPal.
       </p>
 
-      <a
-        href="https://www.paypal.com/ncp/payment/EUS7CQJ632A6C"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="btn btn-primary mt-4 w-full"
-      >
-        Pay with PayPal
-      </a>
+      <Link href="/payment?plan=standard " className="btn btn-primary mt-4">
+        Pay Now
+      </Link>
+      
     </div>
 
     <div className="rounded-2xl border border-white/10 p-6">
