@@ -1,9 +1,22 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 
-export const metadata = {
-  title: "How To Fix WiFi Problems At Home",
+export const metadata: Metadata = {
+  title: "How To Fix WiFi Problems At Home | Common Causes and Next Steps",
   description:
-    "Learn common causes of home WiFi problems and when to get help for unstable internet, dropped connections, router issues, and slow WiFi.",
+    "Learn common causes of home WiFi problems and when to get help for unstable internet, dropped connections, router issues, weak signal, and slow WiFi.",
+  alternates: {
+    canonical: "/blog/how-to-fix-wifi-problems-at-home",
+  },
+  openGraph: {
+    title: "How To Fix WiFi Problems At Home | Common Causes and Next Steps",
+    description:
+      "Learn common causes of home WiFi problems and when to get help for unstable internet, dropped connections, router issues, and slow WiFi.",
+    url: "https://mr-quick-fix-it-support.vercel.app/blog/how-to-fix-wifi-problems-at-home",
+    siteName: "Mr Quick Fix IT Support",
+    locale: "en_ZA",
+    type: "article",
+  },
 };
 
 export default function HowToFixWifiProblemsAtHomePage() {
@@ -20,8 +33,9 @@ export default function HowToFixWifiProblemsAtHomePage() {
           </h1>
 
           <p className="mt-6 text-gray-300 md:text-lg">
-            Home WiFi problems can interrupt work, calls, streaming, gaming, and everyday browsing.
-            Slow or unstable internet is one of the most frustrating tech issues people face.
+            Home WiFi problems can interrupt work, calls, streaming, gaming, and
+            everyday browsing. Slow or unstable internet is one of the most frustrating
+            tech issues people deal with at home.
           </p>
 
           <div className="mt-10 space-y-8">
@@ -39,17 +53,17 @@ export default function HowToFixWifiProblemsAtHomePage() {
             <section>
               <h2 className="text-2xl font-bold">Simple checks that often help</h2>
               <p className="mt-4 text-gray-400">
-                Restarting the router, checking device connection settings, and confirming
-                whether the problem affects one device or multiple devices can help narrow
-                down the cause.
+                Restarting the router, checking device WiFi settings, and confirming
+                whether the issue affects one device or multiple devices can help
+                narrow down the cause.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold">When the issue may need support</h2>
               <p className="mt-4 text-gray-400">
-                If the connection keeps dropping, speeds remain poor, or setup problems keep
-                coming back, it may be time for proper troubleshooting and guided support.
+                If the connection keeps dropping, speeds stay poor, or setup problems
+                keep coming back, it may be time for proper troubleshooting and guided support.
               </p>
             </section>
           </div>
@@ -65,8 +79,11 @@ export default function HowToFixWifiProblemsAtHomePage() {
                 Request Support
               </Link>
 
-              <Link href="/wifi-help-cape-town" className="btn btn-secondary w-full sm:w-auto">
-                WiFi Help Cape Town
+              <Link
+                href="/services/internet-wifi-help"
+                className="btn btn-secondary w-full sm:w-auto"
+              >
+                Internet & WiFi Help
               </Link>
             </div>
           </div>

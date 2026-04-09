@@ -1,9 +1,22 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 
-export const metadata = {
-  title: "Why Is My Laptop Slow?",
+export const metadata: Metadata = {
+  title: "Why Is My Laptop Slow? Common Causes and When to Get Help",
   description:
     "Learn common reasons why a laptop becomes slow and when to get help for performance issues, freezing, startup delays, and software problems.",
+  alternates: {
+    canonical: "/blog/why-is-my-laptop-slow",
+  },
+  openGraph: {
+    title: "Why Is My Laptop Slow? Common Causes and When to Get Help",
+    description:
+      "Learn common reasons laptops become slow and when to get help for performance issues, freezing, startup problems, and general troubleshooting.",
+    url: "https://mr-quick-fix-it-support.vercel.app/blog/why-is-my-laptop-slow",
+    siteName: "Mr Quick Fix IT Support",
+    locale: "en_ZA",
+    type: "article",
+  },
 };
 
 export default function WhyIsMyLaptopSlowPage() {
@@ -71,8 +84,8 @@ export default function WhyIsMyLaptopSlowPage() {
                 Request Support
               </Link>
 
-              <Link href="/laptop-repair-cape-town" className="btn btn-secondary w-full sm:w-auto">
-                Laptop Repair Cape Town
+              <Link href="/services/performance-repair" className="btn btn-secondary w-full sm:w-auto">
+                Performance Repair Service
               </Link>
             </div>
           </div>

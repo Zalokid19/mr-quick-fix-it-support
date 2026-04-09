@@ -24,9 +24,9 @@ export const metadata = {
 
   publisher: "Mr Quick Fix IT Support",
 
-  icons: {
-    icon: "/favicon.ico",
-  },
+      icons: {
+        icon: "/favicon.ico",
+      },
   
   keywords: [
     "Mr Quick Fix IT Support",

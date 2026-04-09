@@ -35,13 +35,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/laptop-repair-cape-town`,
+      url: `${baseUrl}/services/performance-repair`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/wifi-help-cape-town`,
+      url: `${baseUrl}/services/internet-wifi-help`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.8,

@@ -323,7 +323,7 @@ export default function ContactPageClient() {
       <Link href="/payment?plan=standard " className="btn btn-primary mt-4">
         Pay Now
       </Link>
-      
+
     </div>
 
     <div className="rounded-2xl border border-white/10 p-6">
@@ -369,16 +369,16 @@ export default function ContactPageClient() {
                 IT Support Cape Town
             </Link>
             <Link
-                href="/performance-repair-cape-town"
+                href="/services/performance-repair"
                 className="text-blue-300 hover:text-blue-200 underline underline-offset-4"
             >
                 Performance Repair Cape Town
             </Link>
             <Link
-                href="/wifi-help-cape-town"
+                href="/services/internet-wifi-help"
                 className="text-blue-300 hover:text-blue-200 underline underline-offset-4"
             >
-                WiFi Help Cape Town
+                internet-wifi-help Cape Town
             </Link>
             </div>
 

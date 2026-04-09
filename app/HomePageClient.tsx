@@ -60,13 +60,12 @@ export default function HomePageClient() {
                 </p>
 
                 <h1 className="text-4xl font-bold leading-tight md:text-6xl md:leading-[1.1]">
-                  Fast Remote IT Support for Laptops, WiFi, and Virus Problems
+                  Fast Remote IT Support in Cape Town for Laptops, WiFi, and Virus Problems
                 </h1>
 
-                <p className="mt-6 max-w-2xl text-base text-gray-200 md:text-lg">
-                  Get professional help for slow computers, WiFi issues, software problems, and
-                  virus removal without leaving home. Fast response, clear pricing, and simple support.
-                </p>
+                  <p className="mt-6 max-w-2xl text-base text-gray-200 md:text-lg">
+                    Get professional help for slow computers, laptop problems, WiFi issues, software errors, and virus removal without leaving home. Fast response, clear pricing, and simple remote support.
+                  </p>
 
                 <div className="mt-8 flex flex-col gap-4 sm:flex-row">
                 <a
@@ -119,12 +118,12 @@ export default function HomePageClient() {
               Straightforward pricing with a low-risk first-time option.
             </p>
           </div>
-          <div>
-            <h3 className="text-lg font-semibold">Remote Convenience</h3>
-            <p className="mt-1 text-sm text-gray-400">
-              Get help from home without the stress of going anywhere.
-            </p>
-          </div>
+            <div>
+              <h3 className="text-lg font-semibold">Remote Convenience</h3>
+              <p className="mt-1 text-sm text-gray-400">
+                Get help from home with remote tech support for laptops, WiFi issues, and everyday computer problems.
+              </p>
+            </div>
         </div>
       </section>
 
@@ -219,36 +218,6 @@ export default function HomePageClient() {
           </div>
         </div>
       </section>
-
-      <section className="py-16">
-  <div className="mx-auto max-w-5xl px-6 text-center md:px-10">
-    <p className="text-sm font-semibold uppercase tracking-[0.2em] text-blue-300">
-      Need Help Urgently?
-    </p>
-    <h2 className="mt-3 text-3xl font-bold md:text-4xl">
-      Get support before the problem gets worse
-    </h2>
-    <p className="mx-auto mt-4 max-w-2xl text-gray-400">
-      Slow devices, malware, and internet issues usually get more frustrating when left too long.
-      Start with WhatsApp for the fastest response.
-    </p>
-
-    <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
-      <a
-        href="https://wa.me/27676259810?text=Hi%20Mr%20Quick%20Fix,%20I%20need%20help%20with:%0A%0ADevice:%20(PC/Laptop)%0AIssue:%20(Describe%20problem)%0AUrgency:%20(Urgent/Normal)"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="btn btn-primary w-full sm:w-auto text-base font-bold"
-      >
-        Start on WhatsApp
-      </a>
-
-      <Link href="/services" className="btn btn-secondary w-full sm:w-auto">
-        View Services
-      </Link>
-    </div>
-  </div>
-</section>
 
    {/* TESTIMONIALS */}
 <section className="bg-[#081121] py-20">
@@ -440,7 +409,7 @@ export default function HomePageClient() {
 
         {/* WHATSAPP CONVERSION STRIP */}
 <section className="px-6 py-12 md:px-10">
-  <div className="mx-auto max-w-5xl rounded-3xl border border-green-500/20 bg-green-500/10 p-8 text-center">
+  <div className="mx-auto max-w-5xl rounded-3xl border border-blue-500/20 bg-blue-500/10 p-8 text-center">
       <h2 className="text-2xl font-bold md:text-3xl">
         Need IT support right now?
       </h2>
@@ -498,46 +467,47 @@ export default function HomePageClient() {
       <div className="rounded-3xl border border-white/10 bg-white/5 p-8 shadow-xl">
         <h3 className="text-2xl font-bold">Popular local support requests</h3>
 
-        <div className="mt-6 grid gap-4 sm:grid-cols-2">
-          <div className="rounded-2xl border border-white/10 bg-black/20 p-4">
-            <h4 className="font-semibold text-white">Performance Repair</h4>
-            <p className="mt-2 text-sm text-gray-400">
-              Help for slow laptops, freezing, crashing, and startup issues.
-            </p>
-          </div>
+            <div className="mt-6 grid gap-4 sm:grid-cols-2">
+              <div className="rounded-2xl border border-white/10 bg-black/20 p-4">
+                <h4 className="font-semibold text-white">Performance Repair</h4>
+                <p className="mt-2 text-sm text-gray-400">
+                  Help for slow laptops, freezing, crashing, and startup issues.
+                </p>
+              </div>
 
-          <div className="rounded-2xl border border-white/10 bg-black/20 p-4">
-            <h4 className="font-semibold text-white">WiFi & Internet Help</h4>
-            <p className="mt-2 text-sm text-gray-400">
-              Fix unstable WiFi, setup issues, and everyday connectivity problems.
-            </p>
-          </div>
+              <div className="rounded-2xl border border-white/10 bg-black/20 p-4">
+                <h4 className="font-semibold text-white">WiFi & Internet Help</h4>
+                <p className="mt-2 text-sm text-gray-400">
+                  Fix unstable WiFi, setup issues, and everyday connectivity problems.
+                </p>
+              </div>
 
-          <div className="rounded-2xl border border-white/10 bg-black/20 p-4">
-            <h4 className="font-semibold text-white">Virus Removal</h4>
-            <p className="mt-2 text-sm text-gray-400">
-              Cleanup for malware, pop-ups, suspicious programs, and security issues.
-            </p>
-          </div>
+              <div className="rounded-2xl border border-white/10 bg-black/20 p-4">
+                <h4 className="font-semibold text-white">Virus Removal</h4>
+                <p className="mt-2 text-sm text-gray-400">
+                  Cleanup for malware, pop-ups, suspicious programs, and security issues.
+                </p>
+              </div>
 
-          <div className="rounded-2xl border border-white/10 bg-black/20 p-4">
-            <h4 className="font-semibold text-white">Remote Support</h4>
-            <p className="mt-2 text-sm text-gray-400">
-              Fast support without needing to travel or leave your home.
-            </p>
-          </div>
-          <div className="mt-6 flex flex-wrap gap-4 text-sm">
-            <Link href="/performance-repair-cape-town" className="text-blue-300 hover:text-blue-200 underline underline-offset-4">
-                Performance Repair Cape Town
-            </Link>
-            <Link href="/wifi-help-cape-town" className="text-blue-300 hover:text-blue-200 underline underline-offset-4">
-                WiFi Help Cape Town
-            </Link>
+              <div className="rounded-2xl border border-white/10 bg-black/20 p-4">
+                <h4 className="font-semibold text-white">Remote Support</h4>
+                <p className="mt-2 text-sm text-gray-400">
+                  Fast support without needing to travel or leave your home.
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-6 flex flex-wrap gap-4 text-sm">
+              <Link href="/services/performance-repair" className="text-blue-300 hover:text-blue-200 underline underline-offset-4">
+                Performance Repair
+              </Link>
+              <Link href="/services/internet-wifi-help" className="text-blue-300 hover:text-blue-200 underline underline-offset-4">
+                Internet & WiFi Help
+              </Link>
+            </div>
          </div>
         </div>
       </div>
-    </div>
-  </div>
 </section>
 
         {/* HELP GUIDES */}

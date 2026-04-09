@@ -1,9 +1,22 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 
-export const metadata = {
-  title: "Signs Your Computer Has A Virus",
+export const metadata: Metadata = {
+  title: "Signs Your Computer Has A Virus | Common Malware Warning Signs",
   description:
-    "Learn the warning signs of a computer virus or malware infection, including pop-ups, slow performance, strange behavior, and suspicious programs.",
+    "Learn the warning signs of a computer virus or malware infection, including pop-ups, slow performance, strange behaviour, browser redirects, and suspicious programs.",
+  alternates: {
+    canonical: "/blog/signs-your-computer-has-a-virus",
+  },
+  openGraph: {
+    title: "Signs Your Computer Has A Virus | Common Malware Warning Signs",
+    description:
+      "Learn common warning signs of malware, including pop-ups, slow systems, redirects, suspicious programs, and unusual computer behaviour.",
+    url: "https://mr-quick-fix-it-support.vercel.app/blog/signs-your-computer-has-a-virus",
+    siteName: "Mr Quick Fix IT Support",
+    locale: "en_ZA",
+    type: "article",
+  },
 };
 
 export default function SignsYourComputerHasAVirusPage() {
@@ -20,7 +33,7 @@ export default function SignsYourComputerHasAVirusPage() {
           </h1>
 
           <p className="mt-6 text-gray-300 md:text-lg">
-            Virus and malware infections can cause frustrating, risky, and confusing problems.
+            Virus and malware infections can cause frustrating and risky problems.
             Sometimes the warning signs are obvious, and sometimes they build slowly over time.
           </p>
 
@@ -39,16 +52,17 @@ export default function SignsYourComputerHasAVirusPage() {
             <section>
               <h2 className="text-2xl font-bold">Why it matters</h2>
               <p className="mt-4 text-gray-400">
-                Malware can affect performance, damage files, interrupt normal use, and
-                create bigger security issues if it is not handled properly.
+                Malware can affect performance, interfere with files, disrupt normal use,
+                and create bigger security issues if it is not handled properly.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold">When to act quickly</h2>
               <p className="mt-4 text-gray-400">
-                If you are seeing repeated pop-ups, strange programs, unusual behavior,
-                or a big drop in performance, it is a good idea to get the system checked.
+                If you are seeing repeated pop-ups, strange programs, unusual behaviour,
+                browser changes, or a major drop in performance, it is a good idea to
+                get the system checked.
               </p>
             </section>
           </div>
@@ -56,7 +70,7 @@ export default function SignsYourComputerHasAVirusPage() {
           <div className="mt-12 rounded-3xl border border-blue-500/20 bg-blue-500/10 p-8">
             <h2 className="text-2xl font-bold">Think your computer has a virus?</h2>
             <p className="mt-4 text-gray-300">
-              Get support for malware cleanup, suspicious behavior, pop-ups, and security issues.
+              Get support for malware cleanup, suspicious behaviour, pop-ups, and security issues.
             </p>
 
             <div className="mt-6 flex flex-col gap-4 sm:flex-row">
@@ -64,7 +78,10 @@ export default function SignsYourComputerHasAVirusPage() {
                 Request Support
               </Link>
 
-              <Link href="/services/virus-removal" className="btn btn-secondary w-full sm:w-auto">
+              <Link
+                href="/services/virus-removal"
+                className="btn btn-secondary w-full sm:w-auto"
+              >
                 Virus Removal Service
               </Link>
             </div>
