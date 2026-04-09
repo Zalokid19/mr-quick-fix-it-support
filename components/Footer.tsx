@@ -39,7 +39,15 @@ export default function Footer() {
       <div>
         <h4 className="text-white font-semibold text-lg mb-4">Contact</h4>
         <ul className="space-y-2 text-slate-300 text-sm">
-          <li>Cape Town, South Africa</li>
+          <li>
+            <a 
+          href="https://www.google.com/maps?q=Cape+Town" 
+          target="_blank" 
+          className="hover:text-blue-400 transition"
+        >
+          Cape Town, South Africa
+        </a>
+          </li>
           <li>
             <a href="tel:+27676259810" className="hover:text-blue-400 transition">
               +27 67 625 9810
