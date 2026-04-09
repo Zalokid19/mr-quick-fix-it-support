@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     title: "How To Fix WiFi Problems At Home | Common Causes and Next Steps",
     description:
       "Learn common causes of home WiFi problems and when to get help for unstable internet, dropped connections, router issues, and slow WiFi.",
-    url: "https://mr-quick-fix-it-support.vercel.app/blog/how-to-fix-wifi-problems-at-home",
+    url: "https://mr-quick-fix-it-support.vercel.app/blog/why-is-my-laptop-slow/how-to-fix-wifi-problems-at-home",
     siteName: "Mr Quick Fix IT Support",
     locale: "en_ZA",
     type: "article",
@@ -74,18 +74,18 @@ export default function HowToFixWifiProblemsAtHomePage() {
               Get support for unstable WiFi, slow internet, router setup, and home connectivity issues.
             </p>
 
-            <div className="mt-6 flex flex-col gap-4 sm:flex-row">
-              <Link href="/contact" className="btn btn-primary w-full sm:w-auto">
-                Request Support
-              </Link>
+              <div className="mt-6 flex flex-col gap-4 sm:flex-row">
+                <Link href="/contact" className="btn btn-primary w-full sm:w-auto">
+                  Request Support
+                </Link>
 
-              <Link
-                href="/services/internet-wifi-help"
-                className="btn btn-secondary w-full sm:w-auto"
-              >
-                Internet & WiFi Help
-              </Link>
-            </div>
+                <Link
+                  href="/services/internet-wifi-help"
+                  className="btn btn-secondary w-full sm:w-auto"
+                >
+                  Internet & WiFi Help
+                </Link>
+              </div>
           </div>
         </div>
       </section>

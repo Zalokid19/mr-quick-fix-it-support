@@ -537,7 +537,7 @@ export default function HomePageClient() {
       </Link>
 
       <Link
-        href="/blog/how-to-fix-wifi-problems-at-home"
+        href="/blog/why-is-my-laptop-slow/how-to-fix-wifi-problems-at-home"
         className="rounded-3xl border border-white/10 bg-white/5 p-8 transition hover:border-blue-400/40"
       >
         <h3 className="text-xl font-bold">How to fix WiFi problems at home</h3>
@@ -547,7 +547,7 @@ export default function HomePageClient() {
       </Link>
 
       <Link
-        href="/blog/signs-your-computer-has-a-virus"
+        href="/blog/why-is-my-laptop-slow/signs-your-computer-has-a-virus"
         className="rounded-3xl border border-white/10 bg-white/5 p-8 transition hover:border-blue-400/40"
       >
         <h3 className="text-xl font-bold">Signs your computer has a virus</h3>

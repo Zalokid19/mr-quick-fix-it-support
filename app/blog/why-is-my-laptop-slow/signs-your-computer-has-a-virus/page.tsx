@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     title: "Signs Your Computer Has A Virus | Common Malware Warning Signs",
     description:
       "Learn common warning signs of malware, including pop-ups, slow systems, redirects, suspicious programs, and unusual computer behaviour.",
-    url: "https://mr-quick-fix-it-support.vercel.app/blog/signs-your-computer-has-a-virus",
+    url: "https://mr-quick-fix-it-support.vercel.app/blog/why-is-my-laptop-slow/signs-your-computer-has-a-virus",
     siteName: "Mr Quick Fix IT Support",
     locale: "en_ZA",
     type: "article",
@@ -78,12 +78,9 @@ export default function SignsYourComputerHasAVirusPage() {
                 Request Support
               </Link>
 
-              <Link
-                href="/services/virus-removal"
-                className="btn btn-secondary w-full sm:w-auto"
-              >
-                Virus Removal Service
-              </Link>
+                    <Link href="/blog/why-is-my-laptop-slow/signs-your-computer-has-a-virus" className="btn btn-secondary w-full sm:w-auto">
+                      signs your computer has a virus
+                    </Link>
             </div>
           </div>
         </div>
