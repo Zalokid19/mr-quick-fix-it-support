@@ -6,7 +6,7 @@ import MobileStickyCTA from "../components/MobileStickyCTA";
 import LocalBusinessSchema from "../components/LocalBusinessSchema";
 
 export const metadata = {
-  metadataBase: new URL("https://mr-quick-fix-it-support.vercel.app"),
+  metadataBase: new URL("https://mrquickfix.co.za"),
 
   title: {
     default: "Mr Quick Fix IT Support | Remote IT Support Cape Town",
