@@ -86,7 +86,7 @@ export default function HomePageClient() {
         transition={{ delay: 0.2 }}
         className="mt-6 max-w-xl text-base leading-relaxed text-slate-200 md:text-lg"
       >
-        Get Professional help from Mr Quick Fix with slow laptops, WiFi issues, virus concerns,
+        Get Professional Remote IT Support from Mr Quick Fix with slow laptops, WiFi issues, virus concerns,
         software problems, and everyday tech support — remotely, clearly,
         and affordably.
       </motion.p>
